@@ -10,9 +10,13 @@
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"format": "prettier --write .",
+<<<<<<< HEAD
 		"lint": "prettier --check . && eslint .",
 		"storybook": "storybook dev -p 6006",
 		"build-storybook": "storybook build"
+=======
+		"lint": "prettier --check . && eslint ."
+>>>>>>> 6d6745c (removing storybook)
 	},
 	"files": [
 		"dist",
@@ -54,6 +58,7 @@
 		"tailwindcss": "^3.4.9",
 		"typescript": "^5.0.0",
 		"typescript-eslint": "^8.0.0",
+<<<<<<< HEAD
 		"vite": "^5.0.11",
 		"storybook": "^8.4.1",
 		"@storybook/svelte": "^8.4.1",
@@ -64,5 +69,8 @@
 		"@chromatic-com/storybook": "^3.2.2",
 		"@storybook/test": "^8.4.1",
 		"@storybook/addon-interactions": "^8.4.1"
+=======
+		"vite": "^5.0.11"
+>>>>>>> 6d6745c (removing storybook)
 	}
 }
